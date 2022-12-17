@@ -1,0 +1,29 @@
+{
+    "name": "armincms/aqoela",
+    "description": "A Laravel Nova tool.",
+    "keywords": [
+        "laravel",
+        "nova"
+    ],
+    "license": "MIT",
+    "require": {
+        "armincms/easy-license": "dev-develop|1.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Aqoela\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Aqoela\\ToolServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

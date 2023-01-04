@@ -7,7 +7,8 @@
     ],
     "license": "MIT",
     "require": {
-        "armincms/easy-license": "dev-develop|2.0.0"
+        "armincms/easy-license": "dev-develop|2.*",
+        "armincms/blogger": "dev-develop|3.*"
     },
     "autoload": {
         "psr-4": {

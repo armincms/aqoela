@@ -13,12 +13,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Aqoela\\": "src/"
+            "Armincms\\Aqoela\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
+                "Armincms\\Aqoela\\ServiceProvider"
             ]
         }
     },
